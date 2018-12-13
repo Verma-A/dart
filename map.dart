@@ -19,4 +19,6 @@ void main(){
   print('Mark key removed: ${x.remove('marks')}');    //remove marks from map
 
   x.forEach((k,v)=>print('$k: $v'));    //it will iterate all the values of map
+
+  //NOTE: map give all the values sequencially 
 }
